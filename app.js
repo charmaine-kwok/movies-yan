@@ -1,5 +1,5 @@
 const ball = document.querySelector(".toggle-ball");
-const items = document.querySelectorAll(" .link, a:visited, .container, .movie-item, .movie-list-title, .logo, .navbar-container, .toggle");
+const items = document.querySelectorAll(".menu-link, .link, a:visited, .container, .movie-item, .movie-list-title, .logo, .navbar-container, .toggle");
 
 ball.addEventListener("click", () => {
     items.forEach(item => {
